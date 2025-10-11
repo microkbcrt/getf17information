@@ -1,0 +1,95 @@
+name: Data Update Workflow # 给工作流起一个更通用的名字
+
+on:
+  workflow_dispatch:  # 支持手动触发
+jobs:
+  update-data: # 作业名也改得通用一些
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          # 我们需要一个有写权限的token来推送变更
+          # PUSH_TOKEN 是您需要自己创建的Personal Access Token
+          token: ${{ secrets.PUSH_TOKEN }}
+          
+      - name: 设置Python环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          # 将所有Python脚本的依赖都放在这里
+          pip install requests beautifulsoup4 lxml pillow
+          
+      # --- 执行所有数据获取脚本 ---
+      - name: 运行十天天气脚本
+        run: python get_weather.py
+          
+      - name: 运行NMC天气脚本
+        run: python getnmcweather.py
+
+      - name: 运行icon天气脚本
+        run: python get_icon_weather.py
+        
+      #- name: 获取通知数据        
+      #  run: python fetch_notifications.py
+
+      - name: 运行广州雷达图生成脚本
+        run: python create_gz_radar_gif.py
+        
+      - name: 运行广东雷达图生成脚本
+        run: python create_gd_radar_gif.py
+        
+      - name: 运行华南雷达拼图生成脚本
+        run: python create_sc_radar_gif.py
+        
+      - name: 运行短时天气脚本
+        run: python get_short_weather.py
+        
+      - name: 运行回南天预测脚本
+        run: python get_huinan.py
+        
+      - name: 运行天气预警脚本
+        run: python weather_alarm_parser.py
+
+      # 执行哔哩哔哩热搜脚本
+      - name: Run geibilibilirank
+        run: python get_bilibili_rank.py
+
+      # 执行获取微博热搜脚本
+      - name: Run geiweiborank
+        run: python get_weibo_rank.py
+
+      # 执行获取F1赛事资讯脚本
+      - name: 运行B站动态
+        # 这里是新增的步骤
+        env:
+          # 将我们设置的GitHub Secret传递给脚本作为环境变量
+          BILI_SESSDATA: ${{ secrets.BILI_SESSDATA }}
+        run: python get_all_bili_dynamics.py # 假设您的脚本名为 get_bili_post.py
+        
+      - name: 检查文件变更
+        id: git-check
+        run: |
+          # 检查所有可能被脚本修改或创建的文件
+          # 在列表的最后加上我们新脚本的输出文件 latest_bili_post.json
+          if ! git diff --quiet -- tendaysweather.txt nmcweather.js nmcweather.json notifications.json unqualified.json getshortweather.json huinan.json alarmcontent.json bilibilirank.json weiborank.json dynamics.json iconweather.json iconweather.js iconrawweather.json gz_radar.gif gd_radar.gif sc_radar.gif; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: 提交并推送变更
+        # 仅当上一步(id: git-check)的输出 changed 为 'true' 时才运行
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # 添加所有可能变更的文件
+          git add .
+          git commit -m "chore: 自动更新数据 (B站动态及天气信息) - $(date)"
+          git push
