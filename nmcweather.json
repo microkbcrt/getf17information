@@ -2,11 +2,11 @@
   {
     "date": "10/14周二",
     "daytime": {
-      "weather": "多云，有雷阵雨局部大雨",
-      "icon": "11.png",
-      "temperature": "33℃",
-      "wind_direction": "无持续风向",
-      "wind_strength": "微风"
+      "weather": "",
+      "icon": "default.png",
+      "temperature": "",
+      "wind_direction": "",
+      "wind_strength": ""
     },
     "night": {
       "weather": "多云，有雷阵雨局部大雨",
@@ -104,18 +104,18 @@
   {
     "date": "10/20周一",
     "daytime": {
-      "weather": "阴",
-      "icon": "02.png",
-      "temperature": "27℃",
+      "weather": "多云",
+      "icon": "01.png",
+      "temperature": "29℃",
       "wind_direction": "北风",
       "wind_strength": "3~4级"
     },
     "night": {
       "weather": "多云",
       "icon": "01n.png",
-      "temperature": "18℃",
+      "temperature": "19℃",
       "wind_direction": "北风",
-      "wind_strength": "3~4级"
+      "wind_strength": "4~5级"
     }
   }
 ]
