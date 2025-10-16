@@ -12,7 +12,7 @@ var iconWeatherData = {
         {
             "time": "2025-10-17",
             "temperature_2m_max": 34,
-            "temperature_2m_min": 24,
+            "temperature_2m_min": 25,
             "weather_desc": "多云",
             "weather_icon": "01.png",
             "warning_text": "",
@@ -20,7 +20,7 @@ var iconWeatherData = {
         },
         {
             "time": "2025-10-18",
-            "temperature_2m_max": 35,
+            "temperature_2m_max": 34,
             "temperature_2m_min": 25,
             "weather_desc": "多云间晴",
             "weather_icon": "00.png",
@@ -49,10 +49,10 @@ var iconWeatherData = {
             "time": "2025-10-21",
             "temperature_2m_max": 25,
             "temperature_2m_min": 20,
-            "weather_desc": "多云到阴天，有中雨",
-            "weather_icon": "19.png",
+            "weather_desc": "多云到阴天",
+            "weather_icon": "02.png",
             "warning_text": "提醒: 可能伴有大风",
-            "weather_code": 61
+            "weather_code": 3
         },
         {
             "time": "2025-10-22",
