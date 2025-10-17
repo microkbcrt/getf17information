@@ -1,26 +1,9 @@
 var weatherData = [
   {
-    "date": "10/17周五",
-    "daytime": {
-      "weather": "",
-      "icon": "default.png",
-      "temperature": "",
-      "wind_direction": "",
-      "wind_strength": ""
-    },
-    "night": {
-      "weather": "多云",
-      "icon": "01n.png",
-      "temperature": "24℃",
-      "wind_direction": "无持续风向",
-      "wind_strength": "微风"
-    }
-  },
-  {
     "date": "10/18周六",
     "daytime": {
-      "weather": "多云",
-      "icon": "01.png",
+      "weather": "晴到多云",
+      "icon": "00.png",
       "temperature": "34℃",
       "wind_direction": "无持续风向",
       "wind_strength": "微风"
@@ -29,8 +12,8 @@ var weatherData = [
       "weather": "多云",
       "icon": "01n.png",
       "temperature": "24℃",
-      "wind_direction": "北风",
-      "wind_strength": "3~4级"
+      "wind_direction": "无持续风向",
+      "wind_strength": "微风"
     }
   },
   {
@@ -38,31 +21,31 @@ var weatherData = [
     "daytime": {
       "weather": "多云",
       "icon": "01.png",
-      "temperature": "33℃",
-      "wind_direction": "北风",
-      "wind_strength": "3~4级"
+      "temperature": "31℃",
+      "wind_direction": "无持续风向",
+      "wind_strength": "微风"
     },
     "night": {
-      "weather": "多云",
-      "icon": "01n.png",
+      "weather": "阴",
+      "icon": "02n.png",
       "temperature": "22℃",
       "wind_direction": "北风",
-      "wind_strength": "4~5级"
+      "wind_strength": "3~4级"
     }
   },
   {
     "date": "10/20周一",
     "daytime": {
-      "weather": "多云",
-      "icon": "01.png",
-      "temperature": "29℃",
+      "weather": "阴",
+      "icon": "02.png",
+      "temperature": "27℃",
       "wind_direction": "北风",
-      "wind_strength": "4~5级"
+      "wind_strength": "3~4级"
     },
     "night": {
-      "weather": "多云",
-      "icon": "01n.png",
-      "temperature": "20℃",
+      "weather": "多云，有雷阵雨局部大雨",
+      "icon": "11.png",
+      "temperature": "18℃",
       "wind_direction": "北风",
       "wind_strength": "4~5级"
     }
@@ -116,6 +99,23 @@ var weatherData = [
       "temperature": "20℃",
       "wind_direction": "北风",
       "wind_strength": "3~4级"
+    }
+  },
+  {
+    "date": "10/24周五",
+    "daytime": {
+      "weather": "多云",
+      "icon": "01.png",
+      "temperature": "27℃",
+      "wind_direction": "无持续风向",
+      "wind_strength": "微风"
+    },
+    "night": {
+      "weather": "多云",
+      "icon": "01n.png",
+      "temperature": "19℃",
+      "wind_direction": "无持续风向",
+      "wind_strength": "微风"
     }
   }
 ];
