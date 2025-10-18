@@ -26,8 +26,8 @@
     },
     "link": "https://www.bilibili.com/v/popular/rank/all",
     "total": 100,
-    "fromCache": false,
-    "updateTime": "2025-10-18T03:10:57.247Z",
+    "fromCache": true,
+    "updateTime": "2025-10-18T03:10:57.366Z",
     "data": [
         {
             "id": "BV1xv4vz8EDp",
@@ -212,7 +212,7 @@
             "cover": "https://i2.hdslb.com/bfs/archive/cc92bf6f6b71c0362aca15f44e917b2682912f30.jpg",
             "author": "高司令-速凌电竞",
             "timestamp": 1760587200000,
-            "hot": 2322353,
+            "hot": 2323252,
             "url": "https://b23.tv/BV1VM4Bz1EzX",
             "mobileUrl": "https://m.bilibili.com/video/BV1VM4Bz1EzX"
         },
