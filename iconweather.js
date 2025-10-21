@@ -13,7 +13,7 @@ var iconWeatherData = {
             "time": "2025-10-22",
             "temperature_2m_max": 22,
             "temperature_2m_min": 17,
-            "weather_desc": "阴天，有分散小雨",
+            "weather_desc": "多云，有分散小雨",
             "weather_icon": "07.png",
             "warning_text": "",
             "weather_code": 53
