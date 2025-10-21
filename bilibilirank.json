@@ -26,8 +26,8 @@
     },
     "link": "https://www.bilibili.com/v/popular/rank/all",
     "total": 100,
-    "fromCache": false,
-    "updateTime": "2025-10-21T01:49:32.645Z",
+    "fromCache": true,
+    "updateTime": "2025-10-21T01:49:32.762Z",
     "data": [
         {
             "id": "BV1jeWsz6EYX",
@@ -355,7 +355,7 @@
             "cover": "https://i1.hdslb.com/bfs/archive/5285a807c9f5b603d34348f8bf167679c6c8dd2d.jpg",
             "author": "林欢喜耶",
             "timestamp": 1760689529000,
-            "hot": 2720874,
+            "hot": 2720882,
             "url": "https://b23.tv/BV1nEWCzYEez",
             "mobileUrl": "https://m.bilibili.com/video/BV1nEWCzYEez"
         },
