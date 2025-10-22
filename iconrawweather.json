@@ -2,7 +2,7 @@
     "center": {
         "latitude": 23.25,
         "longitude": 113.25,
-        "generationtime_ms": 0.21839141845703125,
+        "generationtime_ms": 0.2148151397705078,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -700,6 +700,7 @@
             "precipitation_icon_global": [
                 0.0,
                 0.0,
+                0.2,
                 0.0,
                 0.0,
                 0.0,
@@ -863,9 +864,8 @@
                 0.0,
                 0.0,
                 0.0,
-                null,
-                null,
-                null
+                0.0,
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 26.6,
@@ -1286,7 +1286,7 @@
     "north": {
         "latitude": 23.25,
         "longitude": 113.0,
-        "generationtime_ms": 0.18978118896484375,
+        "generationtime_ms": 0.1806020736694336,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -2147,9 +2147,9 @@
                 0.0,
                 0.0,
                 0.0,
-                null,
-                null,
-                null
+                0.0,
+                0.0,
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 26.3,
@@ -2570,7 +2570,7 @@
     "south": {
         "latitude": 22.75,
         "longitude": 113.5,
-        "generationtime_ms": 0.24509429931640625,
+        "generationtime_ms": 0.24056434631347656,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -3266,14 +3266,14 @@
                 0.0
             ],
             "precipitation_icon_global": [
+                0.8,
                 0.5,
-                0.5,
+                0.2,
+                0.0,
+                0.0,
+                0.3,
+                0.3,
                 0.1,
-                0.1,
-                0.1,
-                0.1,
-                0.1,
-                0.1,
                 0.0,
                 0.0,
                 0.0,
@@ -3431,9 +3431,9 @@
                 0.0,
                 0.0,
                 0.0,
-                null,
-                null,
-                null
+                0.0,
+                0.0,
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 18.7,
@@ -3854,7 +3854,7 @@
     "east": {
         "latitude": 23.25,
         "longitude": 113.75,
-        "generationtime_ms": 0.20360946655273438,
+        "generationtime_ms": 0.18036365509033203,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -4553,9 +4553,6 @@
                 0.0,
                 0.0,
                 0.0,
-                0.1,
-                0.2,
-                0.1,
                 0.0,
                 0.0,
                 0.0,
@@ -4715,9 +4712,12 @@
                 0.0,
                 0.0,
                 0.0,
-                null,
-                null,
-                null
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 10.4,
@@ -5138,7 +5138,7 @@
     "west": {
         "latitude": 23.25,
         "longitude": 113.0,
-        "generationtime_ms": 0.2657175064086914,
+        "generationtime_ms": 0.1798868179321289,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -5834,11 +5834,8 @@
                 0.0
             ],
             "precipitation_icon_global": [
-                0.0,
-                0.0,
-                0.0,
-                0.1,
                 0.2,
+                0.3,
                 0.0,
                 0.0,
                 0.0,
@@ -5999,9 +5996,12 @@
                 0.0,
                 0.0,
                 0.0,
-                null,
-                null,
-                null
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 26.6,
