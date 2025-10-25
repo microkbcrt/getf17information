@@ -1,36 +1,19 @@
 var weatherData = [
   {
-    "date": "10/25周六",
-    "daytime": {
-      "weather": "",
-      "icon": "default.png",
-      "temperature": "",
-      "wind_direction": "",
-      "wind_strength": ""
-    },
-    "night": {
-      "weather": "多云",
-      "icon": "01n.png",
-      "temperature": "20℃",
-      "wind_direction": "北风",
-      "wind_strength": "3~4级"
-    }
-  },
-  {
     "date": "10/26周日",
     "daytime": {
       "weather": "多云",
       "icon": "01.png",
-      "temperature": "28℃",
-      "wind_direction": "北风",
-      "wind_strength": "3~4级"
+      "temperature": "27℃",
+      "wind_direction": "无持续风向",
+      "wind_strength": "微风"
     },
     "night": {
       "weather": "多云",
       "icon": "01n.png",
       "temperature": "19℃",
-      "wind_direction": "北风",
-      "wind_strength": "3~4级"
+      "wind_direction": "无持续风向",
+      "wind_strength": "微风"
     }
   },
   {
@@ -45,7 +28,7 @@ var weatherData = [
     "night": {
       "weather": "多云",
       "icon": "01n.png",
-      "temperature": "18℃",
+      "temperature": "20℃",
       "wind_direction": "无持续风向",
       "wind_strength": "微风"
     }
@@ -55,14 +38,14 @@ var weatherData = [
     "daytime": {
       "weather": "多云",
       "icon": "01.png",
-      "temperature": "27℃",
+      "temperature": "25℃",
       "wind_direction": "无持续风向",
       "wind_strength": "微风"
     },
     "night": {
       "weather": "多云",
       "icon": "01n.png",
-      "temperature": "18℃",
+      "temperature": "20℃",
       "wind_direction": "无持续风向",
       "wind_strength": "微风"
     }
@@ -114,6 +97,23 @@ var weatherData = [
       "weather": "多云",
       "icon": "01n.png",
       "temperature": "19℃",
+      "wind_direction": "无持续风向",
+      "wind_strength": "微风"
+    }
+  },
+  {
+    "date": "11/01周六",
+    "daytime": {
+      "weather": "多云，有小雨",
+      "icon": "07.png",
+      "temperature": "26℃",
+      "wind_direction": "无持续风向",
+      "wind_strength": "微风"
+    },
+    "night": {
+      "weather": "阴",
+      "icon": "02n.png",
+      "temperature": "20℃",
       "wind_direction": "无持续风向",
       "wind_strength": "微风"
     }
