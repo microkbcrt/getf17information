@@ -4,10 +4,10 @@ var iconWeatherData = {
             "time": "2025-10-27",
             "temperature_2m_max": 27,
             "temperature_2m_min": 20,
-            "weather_desc": "多云到阴天",
-            "weather_icon": "02.png",
+            "weather_desc": "多云",
+            "weather_icon": "01.png",
             "warning_text": "",
-            "weather_code": 3
+            "weather_code": 1
         },
         {
             "time": "2025-10-28",
