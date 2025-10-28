@@ -40,7 +40,7 @@ var iconWeatherData = {
             "time": "2025-11-01",
             "temperature_2m_max": 28,
             "temperature_2m_min": 21,
-            "weather_desc": "多云到阴天",
+            "weather_desc": "阴天",
             "weather_icon": "02.png",
             "warning_text": "",
             "weather_code": 3
@@ -49,7 +49,7 @@ var iconWeatherData = {
             "time": "2025-11-02",
             "temperature_2m_max": 28,
             "temperature_2m_min": 20,
-            "weather_desc": "多云到阴天",
+            "weather_desc": "阴天",
             "weather_icon": "02.png",
             "warning_text": "",
             "weather_code": 3
