@@ -31,16 +31,16 @@ var iconWeatherData = {
             "time": "2025-11-04",
             "temperature_2m_max": 20,
             "temperature_2m_min": 17,
-            "weather_desc": "多云，有小雨到中雨",
-            "weather_icon": "19.png",
+            "weather_desc": "多云，有小雨",
+            "weather_icon": "07.png",
             "warning_text": "",
-            "weather_code": 61
+            "weather_code": 53
         },
         {
             "time": "2025-11-05",
             "temperature_2m_max": 26,
             "temperature_2m_min": 17,
-            "weather_desc": "多云到阴天，有分散小雨",
+            "weather_desc": "多云到阴天，有小雨",
             "weather_icon": "07.png",
             "warning_text": "",
             "weather_code": 53
