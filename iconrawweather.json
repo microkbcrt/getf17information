@@ -2,7 +2,7 @@
     "center": {
         "latitude": 23.25,
         "longitude": 113.25,
-        "generationtime_ms": 1.8805265426635742,
+        "generationtime_ms": 2.3653507232666016,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -794,6 +794,9 @@
                 0.0,
                 0.0,
                 0.0,
+                0.1,
+                0.1,
+                0.1,
                 0.0,
                 0.0,
                 0.0,
@@ -862,10 +865,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                null,
-                null,
-                null
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 16.2,
@@ -1286,7 +1286,7 @@
     "north": {
         "latitude": 23.25,
         "longitude": 113.0,
-        "generationtime_ms": 0.23436546325683594,
+        "generationtime_ms": 0.1876354217529297,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -2078,6 +2078,9 @@
                 0.0,
                 0.0,
                 0.0,
+                0.1,
+                0.1,
+                0.1,
                 0.0,
                 0.0,
                 0.0,
@@ -2146,10 +2149,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                null,
-                null,
-                null
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 14.8,
@@ -2570,7 +2570,7 @@
     "south": {
         "latitude": 22.75,
         "longitude": 113.5,
-        "generationtime_ms": 0.32532215118408203,
+        "generationtime_ms": 0.2416372299194336,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -3431,9 +3431,9 @@
                 0.0,
                 0.0,
                 0.0,
-                null,
-                null,
-                null
+                0.0,
+                0.0,
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 13.3,
@@ -3854,7 +3854,7 @@
     "east": {
         "latitude": 23.25,
         "longitude": 113.75,
-        "generationtime_ms": 0.20742416381835938,
+        "generationtime_ms": 0.21600723266601562,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -4643,6 +4643,9 @@
                 0.0,
                 0.0,
                 0.0,
+                0.0,
+                0.0,
+                0.0,
                 0.1,
                 0.1,
                 0.1,
@@ -4714,10 +4717,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                null,
-                null,
-                null
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 13.3,
@@ -5138,7 +5138,7 @@
     "west": {
         "latitude": 23.25,
         "longitude": 113.0,
-        "generationtime_ms": 0.26977062225341797,
+        "generationtime_ms": 0.1996755599975586,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -5930,6 +5930,9 @@
                 0.0,
                 0.0,
                 0.0,
+                0.1,
+                0.1,
+                0.1,
                 0.0,
                 0.0,
                 0.0,
@@ -5998,10 +6001,7 @@
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                null,
-                null,
-                null
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 15.1,
