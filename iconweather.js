@@ -12,8 +12,8 @@ var iconWeatherData = {
         {
             "time": "2025-11-06",
             "temperature_2m_max": 29,
-            "temperature_2m_min": 19,
-            "weather_desc": "多云到阴天",
+            "temperature_2m_min": 18,
+            "weather_desc": "阴天",
             "weather_icon": "02.png",
             "warning_text": "",
             "weather_code": 3
@@ -22,10 +22,10 @@ var iconWeatherData = {
             "time": "2025-11-07",
             "temperature_2m_max": 29,
             "temperature_2m_min": 23,
-            "weather_desc": "阴天",
-            "weather_icon": "02.png",
+            "weather_desc": "多云",
+            "weather_icon": "01.png",
             "warning_text": "",
-            "weather_code": 3
+            "weather_code": 1
         },
         {
             "time": "2025-11-08",
@@ -39,8 +39,8 @@ var iconWeatherData = {
         {
             "time": "2025-11-09",
             "temperature_2m_max": 31,
-            "temperature_2m_min": 21,
-            "weather_desc": "多云到阴天",
+            "temperature_2m_min": 22,
+            "weather_desc": "阴天",
             "weather_icon": "02.png",
             "warning_text": "",
             "weather_code": 3
