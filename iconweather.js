@@ -22,7 +22,7 @@ var iconWeatherData = {
             "time": "2025-11-09",
             "temperature_2m_max": 29,
             "temperature_2m_min": 22,
-            "weather_desc": "阴天",
+            "weather_desc": "多云到阴天",
             "weather_icon": "02.png",
             "warning_text": "",
             "weather_code": 3
