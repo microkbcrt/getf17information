@@ -11,12 +11,12 @@ var iconWeatherData = {
         },
         {
             "time": "2025-11-08",
-            "temperature_2m_max": 30,
+            "temperature_2m_max": 31,
             "temperature_2m_min": 23,
-            "weather_desc": "多云",
-            "weather_icon": "01.png",
+            "weather_desc": "阴天，有分散小雨",
+            "weather_icon": "07.png",
             "warning_text": "",
-            "weather_code": 1
+            "weather_code": 53
         },
         {
             "time": "2025-11-09",
