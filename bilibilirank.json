@@ -26,8 +26,8 @@
     },
     "link": "https://www.bilibili.com/v/popular/rank/all",
     "total": 100,
-    "fromCache": false,
-    "updateTime": "2025-11-15T19:58:01.662Z",
+    "fromCache": true,
+    "updateTime": "2025-11-15T19:58:01.776Z",
     "data": [
         {
             "id": "BV1zMCbBQEmP",
@@ -718,7 +718,7 @@
             "cover": "https://i2.hdslb.com/bfs/archive/47093ea37d1403d5d19a0e639148899775a497ba.jpg",
             "author": "蜗牛不知道-",
             "timestamp": 1763111100000,
-            "hot": 1823668,
+            "hot": 1823683,
             "url": "https://b23.tv/BV1TrCWBRETu",
             "mobileUrl": "https://m.bilibili.com/video/BV1TrCWBRETu"
         },
