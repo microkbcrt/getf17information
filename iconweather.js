@@ -24,7 +24,7 @@ var iconWeatherData = {
             "temperature_2m_min": 13,
             "weather_desc": "多云，有小雨",
             "weather_icon": "07.png",
-            "warning_text": "",
+            "warning_text": "提醒: 可能伴有大风",
             "weather_code": 53
         },
         {
