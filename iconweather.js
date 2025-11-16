@@ -13,8 +13,8 @@ var iconWeatherData = {
             "time": "2025-11-18",
             "temperature_2m_max": 19,
             "temperature_2m_min": 14,
-            "weather_desc": "多云间晴",
-            "weather_icon": "00.png",
+            "weather_desc": "多云",
+            "weather_icon": "01.png",
             "warning_text": "提醒: 可能伴有大风",
             "weather_code": 1
         },
