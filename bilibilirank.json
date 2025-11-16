@@ -26,8 +26,8 @@
     },
     "link": "https://www.bilibili.com/v/popular/rank/all",
     "total": 100,
-    "fromCache": true,
-    "updateTime": "2025-11-16T17:18:46.239Z",
+    "fromCache": false,
+    "updateTime": "2025-11-16T18:18:54.820Z",
     "data": [
         {
             "id": "BV1zMCbBQEmP",
