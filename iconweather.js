@@ -22,10 +22,10 @@ var iconWeatherData = {
             "time": "2025-11-23",
             "temperature_2m_max": 25,
             "temperature_2m_min": 13,
-            "weather_desc": "多云间晴",
-            "weather_icon": "00.png",
+            "weather_desc": "阴天",
+            "weather_icon": "02.png",
             "warning_text": "",
-            "weather_code": 1
+            "weather_code": 3
         },
         {
             "time": "2025-11-24",
