@@ -2,7 +2,7 @@
     "center": {
         "latitude": 23.25,
         "longitude": 113.25,
-        "generationtime_ms": 0.37539005279541016,
+        "generationtime_ms": 0.17142295837402344,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -863,9 +863,9 @@
                 0.0,
                 0.0,
                 0.0,
-                null,
-                null,
-                null
+                0.0,
+                0.0,
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 6.8,
@@ -1264,29 +1264,29 @@
                 null
             ],
             "temperature_2m_max_icon_global": [
-                24.3,
-                24.8,
-                23.7,
+                24.5,
+                24.5,
+                23.8,
+                23.0,
                 22.6,
-                22.0,
-                21.9,
-                null
+                22.8,
+                24.8
             ],
             "temperature_2m_min_icon_global": [
-                16.2,
-                18.0,
-                15.1,
-                12.1,
-                12.1,
-                10.1,
-                null
+                16.3,
+                17.5,
+                15.5,
+                12.2,
+                12.3,
+                10.5,
+                10.9
             ]
         }
     },
     "north": {
         "latitude": 23.25,
         "longitude": 113.0,
-        "generationtime_ms": 0.7383823394775391,
+        "generationtime_ms": 0.2218484878540039,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -2147,9 +2147,9 @@
                 0.0,
                 0.0,
                 0.0,
-                null,
-                null,
-                null
+                0.0,
+                0.0,
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 7.6,
@@ -2548,29 +2548,29 @@
                 null
             ],
             "temperature_2m_max_icon_global": [
+                24.2,
                 24.1,
-                23.8,
-                23.1,
-                22.3,
-                21.6,
-                21.5,
-                null
+                23.2,
+                22.9,
+                21.9,
+                22.4,
+                24.8
             ],
             "temperature_2m_min_icon_global": [
-                14.3,
-                15.8,
-                14.3,
-                10.4,
+                14.6,
+                16.0,
+                14.4,
+                9.9,
                 10.8,
-                7.9,
-                null
+                8.3,
+                5.4
             ]
         }
     },
     "south": {
         "latitude": 22.75,
         "longitude": 113.5,
-        "generationtime_ms": 0.1741647720336914,
+        "generationtime_ms": 0.7756948471069336,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -3431,9 +3431,9 @@
                 0.0,
                 0.0,
                 0.0,
-                null,
-                null,
-                null
+                0.0,
+                0.0,
+                0.0
             ],
             "wind_gusts_10m_icon_global": [
                 5.4,
@@ -3832,29 +3832,29 @@
                 null
             ],
             "temperature_2m_max_icon_global": [
-                24.5,
                 24.6,
+                23.2,
                 23.8,
-                21.9,
-                22.5,
-                21.0,
-                null
+                22.2,
+                23.0,
+                21.6,
+                23.8
             ],
             "temperature_2m_min_icon_global": [
-                16.5,
-                18.3,
-                16.1,
-                12.6,
-                12.7,
-                10.4,
-                null
+                16.6,
+                18.0,
+                16.0,
+                13.0,
+                12.9,
+                11.0,
+                12.9
             ]
         }
     },
     "east": {
         "latitude": 23.25,
         "longitude": 113.75,
-        "generationtime_ms": 0.18477439880371094,
+        "generationtime_ms": 0.18215179443359375,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -5116,29 +5116,29 @@
                 null
             ],
             "temperature_2m_max_icon_global": [
+                24.2,
+                23.6,
                 23.9,
-                24.7,
-                23.7,
-                22.5,
-                22.8,
-                21.8,
-                null
+                22.9,
+                23.2,
+                22.6,
+                25.0
             ],
             "temperature_2m_min_icon_global": [
-                13.8,
-                15.5,
-                11.3,
-                6.6,
-                6.1,
-                3.1,
-                null
+                13.3,
+                15.0,
+                11.7,
+                7.2,
+                7.3,
+                5.1,
+                4.9
             ]
         }
     },
     "west": {
         "latitude": 23.25,
         "longitude": 113.0,
-        "generationtime_ms": 0.32830238342285156,
+        "generationtime_ms": 0.1952648162841797,
         "utc_offset_seconds": 28800,
         "timezone": "Asia/Shanghai",
         "timezone_abbreviation": "GMT+8",
@@ -6400,22 +6400,22 @@
                 null
             ],
             "temperature_2m_max_icon_global": [
-                23.7,
-                24.0,
-                22.6,
-                21.6,
-                21.7,
-                21.3,
-                null
+                23.8,
+                23.9,
+                22.8,
+                22.3,
+                22.2,
+                22.0,
+                23.8
             ],
             "temperature_2m_min_icon_global": [
-                14.3,
-                16.8,
-                14.3,
-                10.6,
-                11.1,
-                8.2,
-                null
+                14.6,
+                16.2,
+                14.6,
+                10.8,
+                11.2,
+                9.2,
+                10.8
             ]
         }
     }
