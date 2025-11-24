@@ -3,7 +3,7 @@ var iconWeatherData = {
         {
             "time": "2025-11-24",
             "temperature_2m_max": 26,
-            "temperature_2m_min": 17,
+            "temperature_2m_min": 18,
             "weather_desc": "阴天",
             "weather_icon": "02.png",
             "warning_text": "",
